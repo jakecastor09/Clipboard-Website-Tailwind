@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
-    "build": "postcss styles.css -o output.css"
+    "build": "tailwindcss -i ./css/style.css -o output.css && echo 'Tailwind CSS build complete.'"
   },
   "author": "Jake Castor",
   "license": "MIT",
